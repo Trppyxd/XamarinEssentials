@@ -30,30 +30,30 @@ namespace XamarinEssentials
             Battery.GetBattery();
             var bLevel = Battery.Level;
             var bTextView = FindViewById<TextView>(Resource.Id.textViewBattery);
-            bTextView.Text = $"Battery: {bLevel * 100}%";
+            bTextView.Text = $"{Resources.GetText(Resource.String.Battery)}: {bLevel * 100}";
 
             // Set app info values to textview
             Essentials.EAppInfo appInfo = new Essentials.EAppInfo();
             var aiTextView = FindViewById<TextView>(Resource.Id.textViewAppInfo);
-            aiTextView.Text = $"AppName: {appInfo.AppName} \n" +
-                              $"Build: {appInfo.Build} \n" +
-                              $"PackageName: {appInfo.PackageName} \n" +
-                              $"Version: {appInfo.Version}";
+            aiTextView.Text = $"{Resources.GetText(Resource.String.AppName)}: {appInfo.AppName} \n" +
+                              $"{Resources.GetText(Resource.String.Build)}: {appInfo.Build} \n" +
+                              $"{Resources.GetText(Resource.String.PackageName)}: {appInfo.PackageName} \n" +
+                              $"{Resources.GetText(Resource.String.Version)}: {appInfo.Version}";
 
             // Checks internet connection on button click and sets the boolean value to textview
             var cTextView = FindViewById<TextView>(Resource.Id.textViewConnectivity);
             var cButton = FindViewById<Button>(Resource.Id.btnConnectivity);
             cButton.Click += (sender, e) =>
-                cTextView.Text = $"IsConnection: {Connectivity.CheckConnectivity().ToString()}";
+                cTextView.Text = $"{Resources.GetText(Resource.String.Connection)}: {Connectivity.CheckConnectivity().ToString()}";
 
             // Sets display info variables to textview
             Essentials.EDisplayInfo eDisplayInfo = new Essentials.EDisplayInfo();
             var diTextView = FindViewById<TextView>(Resource.Id.textViewDisplayInfo);
-            diTextView.Text = $"Width: {eDisplayInfo.Width} \n" +
-                              $"Height: {eDisplayInfo.Height} \n" +
-                              $"Orientation: {eDisplayInfo.Orientation} \n" +
-                              $"Rotation:{eDisplayInfo.Rotation}\n" +
-                              $"Density: {eDisplayInfo.Density}";
+            diTextView.Text = $"{Resources.GetText(Resource.String.Width)}: {eDisplayInfo.Width} \n" +
+                              $"{Resources.GetText(Resource.String.Height)}: { eDisplayInfo.Height} \n" +
+                              $"{Resources.GetText(Resource.String.Orientation)}: {eDisplayInfo.Orientation} \n" +
+                              $"{Resources.GetText(Resource.String.Rotation)}:{eDisplayInfo.Rotation}\n" +
+                              $"{Resources.GetText(Resource.String.Density)}: {eDisplayInfo.Density}";
 
             // Flashlight on/off
             var toggleButton = FindViewById<ToggleButton>(Resource.Id.btnFlashlightToggle);

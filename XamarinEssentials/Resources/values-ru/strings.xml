@@ -1,0 +1,18 @@
+﻿<resources>
+  <string name="app_name">XamarinEssentials</string>
+  <string name="action_settings">настройки</string>
+  <string name="Battery">аккумулятор</string>
+  <string name="AppName">Имя приложения</string>
+  <string name="Build">строить</string>
+  <string name="PackageName">Имя пакета</string>
+  <string name="Version">Версия</string>
+  <string name="Connection">соединение</string>
+  <string name="Width">ширина</string>
+  <string name="Height">Рост</string>
+  <string name="Orientation">ориентация</string>
+  <string name="Rotation">вращение</string>
+  <string name="Density">плотность</string>
+  <string name="Flashlight">Фонарик</string>
+  <string name="Check">Проверьте</string>
+</resources>
+

@@ -3258,6 +3258,45 @@ namespace XamarinEssentials
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f0a002a
+			public const int AppName = 2131361834;
+			
+			// aapt resource value: 0x7f0a0029
+			public const int Battery = 2131361833;
+			
+			// aapt resource value: 0x7f0a002b
+			public const int Build = 2131361835;
+			
+			// aapt resource value: 0x7f0a0035
+			public const int Check = 2131361845;
+			
+			// aapt resource value: 0x7f0a002e
+			public const int Connection = 2131361838;
+			
+			// aapt resource value: 0x7f0a0033
+			public const int Density = 2131361843;
+			
+			// aapt resource value: 0x7f0a0034
+			public const int Flashlight = 2131361844;
+			
+			// aapt resource value: 0x7f0a0030
+			public const int Height = 2131361840;
+			
+			// aapt resource value: 0x7f0a0031
+			public const int Orientation = 2131361841;
+			
+			// aapt resource value: 0x7f0a002c
+			public const int PackageName = 2131361836;
+			
+			// aapt resource value: 0x7f0a0032
+			public const int Rotation = 2131361842;
+			
+			// aapt resource value: 0x7f0a002d
+			public const int Version = 2131361837;
+			
+			// aapt resource value: 0x7f0a002f
+			public const int Width = 2131361839;
+			
 			// aapt resource value: 0x7f0a0000
 			public const int abc_action_bar_home_description = 2131361792;
 			

@@ -1,4 +1,17 @@
 <resources>
     <string name="app_name">XamarinEssentials</string>
     <string name="action_settings">Settings</string>
+  <string name="Battery">Battery</string>
+  <string name="AppName">AppName</string>
+  <string name="Build">Build</string>
+  <string name="PackageName">PackageName</string>
+  <string name="Version">Version</string>
+  <string name="Connection">Connection</string>
+  <string name="Width">Width</string>
+  <string name="Height">Height</string>
+  <string name="Orientation">Orientation</string>
+  <string name="Rotation">Rotation</string>
+  <string name="Density">Density</string>
+  <string name="Flashlight">Flashlight</string>
+  <string name="Check">Check</string>
 </resources>
